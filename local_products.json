@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Samsung Galaxy S25 Ultra",
+    "price": 28500000,
+    "soluong": 8,
+    "image": "http://localhost:9199/v0/b/gk-ptdnt.firebasestorage.app/o/products%2F1794445658956_samsung_galaxy_s25_ultra.webp?alt=media&token=acfba464-488e-4f96-aa06-5c62c59fd9da"
+  },
+  {
+    "name": "Chuột Logitech MX Master 3S",
+    "price": 2390000,
+    "soluong": 19,
+    "image": "http://localhost:9199/v0/b/gk-ptdnt.firebasestorage.app/o/products%2F1794445658603_logitech_mx_master_3s.webp?alt=media&token=2306741d-4690-4732-853d-8cb756bbcaa9"
+  },
+  {
+    "name": "iPad Pro M4 11 inch",
+    "price": 24900000,
+    "soluong": 12,
+    "image": "http://localhost:9199/v0/b/gk-ptdnt.firebasestorage.app/o/products%2F1794445658895_ipad_pro_m4.webp?alt=media&token=c848ebac-d703-4645-ac7b-9ff2575f1c1b"
+  },
+  {
+    "name": "MacBook Air M3 13 inch",
+    "price": 27500000,
+    "soluong": 6,
+    "image": "http://localhost:9199/v0/b/gk-ptdnt.firebasestorage.app/o/products%2F1794445659003_macbook_air_m3.webp?alt=media&token=30710492-ce10-4c1e-8c73-eea84b3841e6"
+  },
+  {
+    "name": "AirPods Pro 2 USB-C",
+    "price": 5790000,
+    "soluong": 25,
+    "image": "http://localhost:9199/v0/b/gk-ptdnt.firebasestorage.app/o/products%2F1794445658929_airpods_pro_2.webp?alt=media&token=fd744af1-9b0b-448a-b532-b50efa257625"
+  },
+  {
+    "name": "iPhone 16 Pro Max",
+    "price": 30000000,
+    "soluong": 10,
+    "image": "http://localhost:9199/v0/b/gk-ptdnt.firebasestorage.app/o/products%2F1794445658980_iphone_16_pro_max.webp?alt=media&token=c4f8fed8-7b9f-48e1-9bb1-8a61ba44c3ff"
+  }
+]

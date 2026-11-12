@@ -1,0 +1,39 @@
+[
+  {
+    "name": "iPhone 16 Pro Max",
+    "price": 30000000,
+    "soluong": 10,
+    "image": "https://placehold.co/600x600/1D4ED8/FFFFFF/png?text=iPhone+16+Pro+Max"
+  },
+  {
+    "name": "Samsung Galaxy S25 Ultra",
+    "price": 28500000,
+    "soluong": 8,
+    "image": "https://placehold.co/600x600/0F766E/FFFFFF/png?text=Galaxy+S25+Ultra"
+  },
+  {
+    "name": "MacBook Air M3 13 inch",
+    "price": 27500000,
+    "soluong": 6,
+    "image": "https://placehold.co/600x600/334155/FFFFFF/png?text=MacBook+Air+M3"
+  },
+  {
+    "name": "iPad Pro M4 11 inch",
+    "price": 24900000,
+    "soluong": 12,
+    "image": "https://placehold.co/600x600/4338CA/FFFFFF/png?text=iPad+Pro+M4"
+  },
+  {
+    "name": "AirPods Pro 2 USB-C",
+    "price": 5790000,
+    "soluong": 25,
+    "image": "https://placehold.co/600x600/0369A1/FFFFFF/png?text=AirPods+Pro+2"
+  },
+  {
+    "name": "Chuột Logitech MX Master 3S",
+    "price": 2390000,
+    "soluong": 0,
+    "image": "https://placehold.co/600x600/475569/FFFFFF/png?text=MX+Master+3S"
+  }
+]
+

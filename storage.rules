@@ -1,0 +1,33 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Kiểm tra tài khoản đăng nhập có phải là Admin hay không.
+    // ĐỔI email bên dưới cho khớp với email Admin trong firestore.rules.
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email != null
+        && request.auth.token.email == 'admin@productadmin.com';
+    }
+
+    match /products/{fileName} {
+      // Cho phép hiển thị ảnh qua URL công khai trên ứng dụng Web & Android.
+      allow read: if true;
+
+      // Chỉ Admin mới được phép tải ảnh lên hoặc ghi đè (tối đa 5MB, chỉ nhận file ảnh).
+      allow create, update: if isAdmin()
+        && request.resource != null
+        && request.resource.size < 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/.*');
+
+      // Chỉ Admin mới được phép xóa ảnh cũ khi xóa/sửa sản phẩm.
+      allow delete: if isAdmin();
+    }
+
+    // Chặn toàn bộ thư mục khác mặc định.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

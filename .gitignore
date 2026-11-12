@@ -1,0 +1,15 @@
+# Du lieu Emulator cuc bo, khoa bi mat & logs
+emulator_data/
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+*.pem
+*.p12
+.env
+.env.*
+product_images/.upload_cache.json
+.firebase/
+.github/modernize/
+*-debug.log
+.idea/
+out/
+
